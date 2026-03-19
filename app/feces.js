@@ -4,10 +4,10 @@ import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'rea
 
 export default function Feces() {
   const data = [
-    { id: 1, img: require('../assets/images/feces1.png'), txt: 'ระดับ 1: ยังมีกากอาหาร (ไม่พร้อม)' },
-    { id: 2, img: require('../assets/images/feces2.png'), txt: 'ระดับ 2: สีขุ่น (เริ่มเตรียมตัว)' },
-    { id: 3, img: require('../assets/images/feces3.png'), txt: 'ระดับ 3: เริ่มใส (ใกล้พร้อม)' },
-    { id: 4, img: require('../assets/images/feces4.png'), txt: 'ระดับ 4: ใสสีเหลือง (พร้อมส่องกล้อง)' },
+    { id: 1, img: require('../../assets/images/feces1.png'), txt: 'ระดับ 1: ยังมีกากอาหาร (ไม่พร้อม)' },
+    { id: 2, img: require('../../assets/images/feces2.png'), txt: 'ระดับ 2: สีขุ่น (เริ่มเตรียมตัว)' },
+    { id: 3, img: require('../../assets/images/feces3.png'), txt: 'ระดับ 3: เริ่มใส (ใกล้พร้อม)' },
+    { id: 4, img: require('../../assets/images/feces4.png'), txt: 'ระดับ 4: ใสสีเหลือง (พร้อมส่องกล้อง)' },
   ];
 
   return (
